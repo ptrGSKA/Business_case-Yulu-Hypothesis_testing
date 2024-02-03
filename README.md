@@ -37,4 +37,16 @@ Yulu has recently suffered considerable dips in its revenues. They have contract
     - registered: count of registered users
     - count: count of total rental bikes including both casual and registered
 
-# Description
+## Description
+
+## Libraries used
+
+## File Structure
+
+```
+📦Business_case-Yulu-Hypothesis_testing
+ ┣ 📜.gitignore
+ ┣ 📜README.md
+ ┣ 📜Yulu_Business_Hypothesis_Testing.ipynb
+ ┗ 📜yulu_bike_sharing_dataset.csv
+```
