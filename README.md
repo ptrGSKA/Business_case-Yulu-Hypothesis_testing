@@ -9,6 +9,8 @@ Yulu has recently suffered considerable dips in its revenues. They have contract
 
 - Which variables are significant in predicting the demand for shared electric cycles in the Indian market?
 - How well those variables describe the electric cycle demands?
+- Which features play a crucial role in determining the demand?
+- What are the short term predictions?
 
 ## Data description
 
@@ -39,7 +41,25 @@ Yulu has recently suffered considerable dips in its revenues. They have contract
 
 ## Description
 
+During the initial phase, the dataset undergoes a process of identifying missing data, determining the data type of the feature variables and identifying the target variable. Additionally, an initial feature engineering step is performed to encode certain features, which aids in providing a more descriptive and representative representation of the data.  
+
+Once the initial steps have been completed, the data is then visualized and aggregated in diverse ways during the explanatory data analysis phase. This enables a deeper understanding of the factors driving the fluctuations in demand.  
+
+The subsequent data is then collapsed from an hourly format to daily records, and the corresponding features are modified accordingly.  
+
+The section dedicated to data visualization provides insights into the weather patterns within the dataset and the corresponding demand across various seasons.  
+
+In the sections dedicated to statistical analysis and model building, the data is subjected to hypothesis testing, also determining the significance of features and undergoes time series analysis using ARIMA to construct a model capable of making short-term predictions for future demand.
+
 ## Libraries used
+
+- pandas
+- matplotlib
+- seaborn
+- SciPy
+- scikit-learn
+- statsmodels
+- pmdarima
 
 ## File Structure
 
